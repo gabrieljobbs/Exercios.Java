@@ -1,17 +1,22 @@
-   import java.util.Scanner;
-   public class exer2 {
+import java.util.Scanner;
 
+public class exer2 {
     public static void main(String[] args) throws Exception {
-        try (Scanner leitor = new Scanner(System.in)) {
-            int num1 =leitor.nextInt();
-            int num2 =leitor.nextInt();
-            int produto =num1*num2;
-            System.out.println("Produto:"+produto);
-        }
+  
+        Scanner leitor = new Scanner(System.in);
+ 
+        int tempo =  leitor.nextInt();
+        int distancia =  leitor.nextInt();
+        
+        double media1= tempo*distancia;
+        double media2 = media1/12;
+
+        System.out.println(media2);
+
+
 
 
     }
-}
-
+}  
     
 
